@@ -9,7 +9,7 @@
             ]
     },
     {
-        "type": "pattern", 
+      "type": "pattern", 
             "values": [
                 "plain",
                 "striped",
