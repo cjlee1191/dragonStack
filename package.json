@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./bin/server",
-    "dev": "nodemon ./bin/server "
+    "dev": "nodemon ./bin/server ",
+    "configure": "./bin/configure_db.sh",
+    "configure-dev": "npm run configure && npm run dev"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "pg": "^7.18.2"
   }
 }
